@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BusyBus</title>
+        <meta name="viewport" content="width=375, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+            crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    </head>
+
+    <body>
+        <section class="container">
+            <img src="images/map.png" alt="Map" id="map">
+            <div class="bus-info">
+                <div id="bus-stop">
+                    <li id="pin-width">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </li>
+                    <li id="bus-stop-name">Washington and State</li>
+                    <li id="dist-width">0.5 mi</li>
+                </div>
+
+                <hr>
+
+                <ul id="direction-east">Eastbound</ul>
+                <ul class="bus-details">
+                    <li class="line-width">60</li>
+                    <li class="dest-width">Randolph/Harbor Dr.</li>
+                    <li class="freq-width" id="first-bus">2 mins</li>
+                    <li class="arrow-width">
+                        <i class="fas fa-chevron-right"></i>
+                    </li>
+                    <li class="line-width">124</li>
+                    <li class="dest-width">Navy Pier</li>
+                    <li class="freq-width" id="second-bus">7 mins</li>
+                    <li class="arrow-width">
+                        <i class="fas fa-chevron-right"></i>
+                    </li>
+                </ul>
+
+                <br>
+
+                <ul class="direction">Southbound</ul>
+                <ul class="bus-details">
+                    <li class="line-width">J14</li>
+                    <li class="dest-width">103rd/Stony Island</li>
+                    <li class="freq-width" id="third-bus">8 mins</li>
+                    <li class="arrow-width">
+                        <i class="fas fa-chevron-right"></i>
+                    </li>
+
+                </ul>
+
+                <ul class="direction">Northbound</ul>
+                <ul class="bus-details">
+                    <li class="line-width">151</li>
+                    <li class="dest-width">Devon/Clark</li>
+                    <li class="freq-width" id="fourth-bus">10 mins</li>
+                    <li class="arrow-width">
+                        <i class="fas fa-chevron-right"></i>
+                    </li>
+                </ul>
+
+                <ul class="direction">Southbound</ul>
+                <ul class="bus-details">
+                    <li class="line-width">124</li>
+                    <li class="dest-width">Navy Pier</li>
+                    <li class="freq-width" id="fifth-bus">15 mins</li>
+                    <li class="arrow-width ">
+                        <i class="fas fa-chevron-right "></i>
+                    </li>
+                </ul>
+
+                <ul class="direction ">Reroute</ul>
+                <ul class="bus-details ">
+                    <li class="line-width ">6x</li>
+                    <li class="dest-width ">Jackson Park Express </li>
+                    <li class="freq-width ">N/A</li>
+                </ul>
+
+                <ul class="direction ">Out of Service</ul>
+                <ul class="bus-details ">
+                    <li class="line-width ">4</li>
+                    <li class="dest-width ">Cottage Grove</li>
+                    <li class="resume-width ">Resumes 12:10am</li>
+                    <li class="line-width ">20</li>
+                    <li class="dest-width ">Madison</li>
+                    <li class="resume-width ">Resumes 12:10am</li>
+                    <li class="line-width ">157</li>
+                    <li class="dest-width ">Streeterville/Taylor</li>
+                    <li class="resume-width ">Resumes 6:00am</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin=" anonymous "></script>
+        <script type="text/javascript " src="main.js "></script>
+
+    </body>
+
+</html>

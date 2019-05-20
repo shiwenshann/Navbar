@@ -1,0 +1,130 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  width: 370px;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+  width: 30%;
+  margin: 6px 5px;
+}
+
+.bus-details {
+  font-size: 12px;
+  margin: 5px 16px;
+}
+
+.bus-info {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 184px;
+  width: 375px;
+}
+
+.bus-stop {
+  border-bottom: solid 1.5px #828282;
+}
+
+.container {
+  background-color: #F2F2F2;
+  width: 375px;
+  height: 667px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.direction {
+  margin: 40px 0px 5px 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.fa-map-marker-alt {
+  margin-top: 3px;
+  font-size: 20px;
+  color: #86bef5;
+}
+
+.line-width {
+  width: 10%;
+}
+
+.dest-width {
+  width: 45%;
+}
+
+.freq-width {
+  width: 28%;
+  text-align: right;
+  color: #828282;
+}
+
+.arrow-width {
+  width: 3%;
+  color: #828282;
+  text-align: right;
+  font-size: 13px;
+}
+
+.resume-width {
+  width: 33%;
+  color: #828282;
+  text-align: right;
+}
+
+#bus-stop-name {
+  margin: 10px 24px;
+  padding-top: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 54%;
+}
+
+#direction-east {
+  margin: 10px 0px 5px 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#dist-width {
+  width: 12%;
+  color: #828282;
+  text-align: right;
+  font-size: 13px;
+  height: 14px;
+  padding-top: 8px;
+}
+
+#map {
+  height: 480px;
+  width: 375px;
+}
+
+#pin-width {
+  width: 10%;
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  padding-bottom: 2px;
+  margin-bottom: 3px;
+  text-align: right;
+}
